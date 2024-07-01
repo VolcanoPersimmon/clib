@@ -8,9 +8,9 @@
 #include <errno.h>    //errno
 #include <unistd.h>
 
-#include "ngx_func.h"
-#include "ngx_macro.h"
-#include "ngx_c_conf.h"
+#include "ngx_func.hh"
+#include "ngx_macro.hh"
+#include "ngx_c_conf.hh"
 
 //函数声明
 static void ngx_start_worker_processes(int threadnums);
